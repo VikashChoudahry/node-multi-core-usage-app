@@ -1,0 +1,31 @@
+{
+  "name": "node-multi-core-usage-app",
+  "version": "1.0.0",
+  "description": "To make the usage of multi core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/VikashChoudahry/node-multi-core-usage-app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cpu-core"
+  ],
+  "author": "vikash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VikashChoudahry/node-multi-core-usage-app/issues"
+  },
+  "homepage": "https://github.com/VikashChoudahry/node-multi-core-usage-app#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "json2csv": "^5.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
